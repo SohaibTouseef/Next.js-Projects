@@ -1,5 +1,4 @@
-import Footers from "@/components/Footers";
-import Headers from "@/components/Headers";
+
 import Image from "next/image";
 
 export default function Home() {
@@ -12,7 +11,7 @@ export default function Home() {
         <p className="text-lg mt-4">This is the home page of the website.</p>
       </div>
     </main>
-    <Footers/>
+  
    </div>
   );
 }
